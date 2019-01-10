@@ -1,8 +1,9 @@
-package com.practice.batch;
+package com.practice.batch.mapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import com.practice.batch.model.User;
 import org.springframework.jdbc.core.RowMapper;
 
 public class UserRowMapper implements RowMapper<User> {

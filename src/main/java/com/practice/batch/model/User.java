@@ -1,4 +1,4 @@
-package com.practice.batch;
+package com.practice.batch.model;
 
 public class User {
 

@@ -12,12 +12,6 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		Application app = new Application();
-		//System.out.println("Testing Application");
-		app.run();
-	}
-
-	private void run() {
 		String[] springConfig = { "spring/batch/jobs/job-extract-users.xml" };
 
 		ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);
